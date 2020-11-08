@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calorie Calculator</title>
+</head>
+<body>
+
+<h1>Calorie Calculator</h1>
+
+<form action="javascript:void(0)" onsubmit="handleBmrCalculatorSubmit()">
+    <label>age</label>
+    <input id="age"/>
+
+    <label>weight (kg)</label>
+    <input id="weight"/>
+
+    <label>height (cm)</label>
+    <input id="height"/>
+
+    <select id="sex">
+        <option value="m">Male</option>
+        <option value="f">Female</option>
+    </select>
+
+    <button>
+        Submit
+    </button>
+</form>
+
+<p id="bmr"></p>
+
+<script src="BmrCalculator.js"></script>
+</body>
+</html>
+
